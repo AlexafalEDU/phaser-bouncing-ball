@@ -1,5 +1,5 @@
-let WIDTH = 400;
-let HEIGHT = 300;
+let WIDTH = 800;
+let HEIGHT = 600;
 
 const config = {
     type: Phaser.AUTO,
@@ -16,8 +16,8 @@ const game = new Phaser.Game(config);
 
 let ball;
 let ballSize = 80;
-let yspeed = 0.5;
-let xspeed = 1.0;
+let yspeed = 20.0;
+let xspeed = 20.0;
 
 function preload() {
     this.load.image("ball", "assets/ball.png"); // watch out for case sensitivity
